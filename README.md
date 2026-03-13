@@ -11,7 +11,7 @@ WebUI
 
 - login as tenant administrator and configure gateway
 
-LeftMenu-Entities -> Gateways -> (+) Add gateway -> mygateway/default -> [ Create ] -> Connectors configuration -> (+) Add -> MQTT/myconnector/INFO -> [Add] -> click on myconnector -> Tab connection to broker -> Fill all info about mqtt broker providing our SenML data -> Tab Data mapping -> (+) Add -> Topic: myhome -> QoS: 1 -> Payload type: Custom -> Extension: SenMLConverter -> [Add] -> [Save]
+LeftMenu-Entities -> Gateways -> (+) Add gateway -> mygateway/default -> [ Create ] -> Kedze nepouzivam doker tak neriesim ziaden Launch command toto nastavenie ignorujem a spustam gateway ces systemctl -> Connectors configuration -> (+) Add -> MQTT/myconnector/INFO -> [Add] -> click on myconnector -> Tab connection to broker -> Fill all info about mqtt broker providing our SenML data -> Tab Data mapping -> (+) Add -> Topic: myhome -> QoS: 1 -> Payload type: Custom -> Extension: SenMLConverter -> [Add] -> [Save]
 
 after data receive and parse new devices will automaticaly pop-up in LeftMenu-Entities -> Devices -> Click on some device and received values will be on tab Latest Telemetry
 
